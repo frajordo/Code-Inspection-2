@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd" version="6.46.0" timestamp="2022-06-29T22:57:38.320">
+<file name="C:\Users\User\Desktop\CodeInspection-main\Code-Inspection-2\src\main\java\labcodeinspection\Email.java">
+<violation beginline="6" endline="6" begincolumn="17" endcolumn="26" rule="ImmutableField" ruleset="Design" package="labcodeinspection" class="Email" variable="m_lastName" externalInfoUrl="https://pmd.github.io/pmd-6.46.0/pmd_rules_java_design.html#immutablefield" priority="3">
+Private field 'm_lastName' could be made final; it is only initialized in the declaration or constructor.
+</violation>
+<violation beginline="7" endline="7" begincolumn="17" endcolumn="31" rule="RedundantFieldInitializer" ruleset="Performance" package="labcodeinspection" class="Email" variable="password" externalInfoUrl="https://pmd.github.io/pmd-6.46.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'password'
+</violation>
+<violation beginline="23" endline="33" begincolumn="3" endcolumn="3" rule="SwitchStmtsShouldHaveDefault" ruleset="Best Practices" package="labcodeinspection" class="Email" method="setDeparment" externalInfoUrl="https://pmd.github.io/pmd-6.46.0/pmd_rules_java_bestpractices.html#switchstmtsshouldhavedefault" priority="3">
+Switch statements should be exhaustive, add a default case (or missing enum branches)
+</violation>
+</file>
+<suppressedviolation filename="C:\Users\User\Desktop\CodeInspection-main\Code-Inspection-2\src\main\java\labcodeinspection\EmailApp.java" suppressiontype="annotation" msg="All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning." usermsg=""></suppressedviolation>
+<suppressedviolation filename="C:\Users\User\Desktop\CodeInspection-main\Code-Inspection-2\src\main\java\labcodeinspection\Email.java" suppressiontype="nopmd" msg="Private field 'm_firstName' could be made final; it is only initialized in the declaration or constructor." usermsg=" This field will be manipulated
+"></suppressedviolation>
+</pmd>
